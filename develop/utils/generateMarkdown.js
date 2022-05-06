@@ -21,13 +21,13 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
       case 'Apache':
-        return '[License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)';
+        return '[License: Apache 2.0](https://opensource.org/licenses/Apache-2.0)';
       case 'Boost':
-        return '[License: Boost](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)';
+        return '[License: Boost](https://www.boost.org/LICENSE_1_0.txt)';
       case 'ISC':
-        return '[License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)';
+        return '[License: ISC](https://opensource.org/licenses/ISC)';
       case 'Perl':
-        return '[License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)';
+        return '[License: Artistic-2.0]((https://opensource.org/licenses/Artistic-2.0)';
       default:
         return '';
   };
