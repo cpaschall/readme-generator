@@ -1,9 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-// const license = data.license
 
 function renderLicenseBadge(license) {
-  // let license = data.license
   switch (license) {
       case 'Apache':
         return '![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)';
@@ -21,7 +19,6 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  // let license = data.license
   switch (license) {
       case 'Apache':
         return '[License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)';
@@ -36,23 +33,14 @@ function renderLicenseLink(license) {
   };
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-  // let license = data.license
-  if(license) {
-    return (`${renderLicenseBadge(license)}<br>${renderLicenseLink(license)}`);
-  } else {
-    return ''
-  };
-}
-
 // TODO: Create a function to generate markdown for README
 
 function generateMarkdown(data) {
   let license = data.license
   return (
   `
+  ${renderLicenseBadge(license)}
+
   # ${data.title}
 
   ## Description
@@ -64,18 +52,23 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## How to Contribute
+  ## Contributing
   ${data.contribution}
 
-  ## Testing
+  ## Tests
   ${data.tests}
 
-  ### License
+  ## Questions
+  Github: [${data.github}](https://github.com/${data.github})
+  <br>
+  Email: ${data.email}
+
   ---
-  ${renderLicenseSection(license)}
+
+  ${renderLicenseLink(license)}
+ 
   `);
 };
-
 
 module.exports = generateMarkdown
 
