@@ -29,7 +29,10 @@
   This is an open source project.  Users can contact me on Github or email (see below) to request to be added to the project.
 
   ## Tests
-  only the command "node index.js" needs to be typed in the terminal under the folder containing the README Generator index.js file to test the application.  The  varialable "fileName" can be changed to a name other than "README.md" so any current Readme file is not overwritten
+  only the command "node index.js" needs to be typed in the terminal under the folder containing the README Generator index.js file to test the application.  The  varialable "fileName" can be changed to a name other than "README.md" so any current Readme file is not overwritten.
+  <br>
+  
+  ![Readme Generator in Terminal](./images/Capture.PNG)
 
   ## Questions
   Github: [cpaschall](https://github.com/cpaschall)
