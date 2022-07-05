@@ -1,22 +1,22 @@
 
-  ![License: Boost](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)
+  ![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
-  # Readme Generator
+  # Coding Portfolio
 
   ## Description
-  Generates a Reame.md file
+  Portfolio showcasing my projects.
 
   ## Instructions
-  run "node index.js' into the temrinal
+  No installation required.
 
   ## Usage
-  Make writing a Readme more efficient
+  Users can visit my portfolio page, view my projects and message me to ask questions or make comments.
 
   ## Contributing
-  contact me
+  Not applicaple for this repo :) .
 
   ## Tests
-  n/a
+  none
 
   ## Questions
   Github: [cpaschall](https://github.com/cpaschall)
@@ -25,6 +25,6 @@
 
   ---
 
-  [License: Boost](https://www.boost.org/LICENSE_1_0.txt)
+  [License: Apache 2.0](https://opensource.org/licenses/Apache-2.0)
  
   
